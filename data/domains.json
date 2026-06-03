@@ -1,35 +1,11 @@
 [
   {
-    "id": "offensive-ai",
-    "name": "Offensive AI / LLM",
-    "description": "Red-teaming i bezpieczeństwo modeli językowych — atak i obrona LLM",
-    "icon": "🤖",
-    "color": "text-fuchsia-400",
-    "bgColor": "bg-fuchsia-950"
-  },
-  {
     "id": "osint",
     "name": "OSINT & Recon",
     "description": "Rozpoznanie, enumeracja i biały wywiad open-source",
     "icon": "🔍",
     "color": "text-cyan-400",
     "bgColor": "bg-cyan-950"
-  },
-  {
-    "id": "appsec",
-    "name": "Secrets, SAST & Cloud",
-    "description": "Sekrety, analiza statyczna kodu i bezpieczeństwo chmury — rdzeń DevSecOps",
-    "icon": "🔐",
-    "color": "text-emerald-400",
-    "bgColor": "bg-emerald-950"
-  },
-  {
-    "id": "scan",
-    "name": "Web & Network Scan",
-    "description": "Skanery podatności webowych i sieciowych",
-    "icon": "🌐",
-    "color": "text-orange-400",
-    "bgColor": "bg-orange-950"
   },
   {
     "id": "web-tools",
