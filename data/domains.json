@@ -1,0 +1,50 @@
+[
+  {
+    "id": "offensive-ai",
+    "name": "Offensive AI / LLM",
+    "description": "Red-teaming i bezpieczeństwo modeli językowych — atak i obrona LLM",
+    "icon": "🤖",
+    "color": "text-fuchsia-400",
+    "bgColor": "bg-fuchsia-950"
+  },
+  {
+    "id": "osint",
+    "name": "OSINT & Recon",
+    "description": "Rozpoznanie, enumeracja i biały wywiad open-source",
+    "icon": "🔍",
+    "color": "text-cyan-400",
+    "bgColor": "bg-cyan-950"
+  },
+  {
+    "id": "appsec",
+    "name": "Secrets, SAST & Cloud",
+    "description": "Sekrety, analiza statyczna kodu i bezpieczeństwo chmury — rdzeń DevSecOps",
+    "icon": "🔐",
+    "color": "text-emerald-400",
+    "bgColor": "bg-emerald-950"
+  },
+  {
+    "id": "scan",
+    "name": "Web & Network Scan",
+    "description": "Skanery podatności webowych i sieciowych",
+    "icon": "🌐",
+    "color": "text-orange-400",
+    "bgColor": "bg-orange-950"
+  },
+  {
+    "id": "web-tools",
+    "name": "Interaktywne & Reference",
+    "description": "Narzędzia w przeglądarce i bazy wiedzy ofensywnej",
+    "icon": "🧰",
+    "color": "text-amber-400",
+    "bgColor": "bg-amber-950"
+  },
+  {
+    "id": "narzedzia",
+    "name": "Osobiste narzędzia",
+    "description": "Własne, lekkie narzędzia codziennego użytku",
+    "icon": "🛠️",
+    "color": "text-slate-400",
+    "bgColor": "bg-slate-900"
+  }
+]

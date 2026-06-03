@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-bebas);
+}
+
+body {
+  font-family: var(--font-geist-sans, system-ui, sans-serif);
+  background: #0a0a0a;
+  color: #fff;
+}
+
+/* Stadion Narodowy — fixed darkened backdrop behind all content */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(to bottom, rgba(10, 10, 10, 0.80), rgba(10, 10, 10, 0.93)),
+    url('/stadion.jpg') center / cover no-repeat;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Subtle scanline texture — mimics CRT / GTA V loading screens */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 3px,
+    rgba(0, 0, 0, 0.06) 3px,
+    rgba(0, 0, 0, 0.06) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.font-display {
+  font-family: var(--font-display, sans-serif);
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
