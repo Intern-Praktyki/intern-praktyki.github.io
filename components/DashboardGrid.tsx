@@ -12,7 +12,7 @@ interface DashboardGridProps {
 
 function SkeletonCard() {
   return (
-    <div className="flex flex-col gap-4 border border-white/[0.07] border-l-2 border-l-white/10 bg-[#111111] p-5 animate-pulse">
+    <div className="gta-panel flex flex-col gap-4 p-5 animate-pulse">
       <div className="flex items-start justify-between">
         <div className="h-10 w-10 bg-white/[0.04]" />
         <div className="h-4 w-14 bg-white/[0.04]" />

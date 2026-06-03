@@ -19,7 +19,7 @@ export default function SearchBar({ value, onChange, resultCount }: SearchBarPro
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder="SZUKAJ NARZĘDZI, TAGÓW, OPISÓW…"
-        className="block w-full border border-white/10 bg-[#111111] py-2.5 pl-10 pr-4 font-mono text-sm text-white placeholder-white/20 outline-none focus:border-[#f5c518]/50 focus:ring-1 focus:ring-[#f5c518]/20 transition"
+        className="gta-input block w-full py-2.5 pl-10 pr-4 font-mono text-sm text-white placeholder-white/20 transition"
         aria-label="Szukaj narzędzi"
       />
       {value && (

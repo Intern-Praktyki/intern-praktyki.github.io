@@ -20,15 +20,7 @@ export default function DashboardCard({ tool }: DashboardCardProps) {
   const cat = CAT_LABEL[tool.category] ?? tool.category.toUpperCase()
 
   const inner = (
-    <div
-      className="group relative flex h-full flex-col gap-4 overflow-hidden p-5 transition-all duration-150 hover:-translate-y-[1px]"
-      style={{
-        background: 'linear-gradient(180deg,#23272e 0%,#14171b 60%,#0f1215 100%)',
-        border: '1px solid rgba(255,255,255,0.09)',
-        boxShadow:
-          'inset 0 1px 0 rgba(255,255,255,0.08), inset 0 0 0 1px rgba(0,0,0,0.4), 0 6px 18px rgba(0,0,0,0.45)',
-      }}
-    >
+    <div className="gta-panel group flex h-full flex-col gap-4 overflow-hidden p-5 transition-all duration-150 hover:-translate-y-[1px]">
       {/* Lewy pasek selekcji (GTA IV menu highlight) */}
       <span
         aria-hidden

@@ -19,7 +19,7 @@ export default function ClockWidget() {
 
   if (!now) {
     return (
-      <div className="border border-white/[0.07] border-l-2 border-l-[#f5c518]/70 bg-[#111111] p-5 animate-pulse">
+      <div className="gta-panel-l p-5 animate-pulse">
         <div className="h-3 w-16 bg-white/[0.06] mb-4" />
         <div className="h-12 w-40 bg-white/[0.06] mb-3" />
         <div className="h-3 w-48 bg-white/[0.04]" />
@@ -32,7 +32,7 @@ export default function ClockWidget() {
   const ss = now.getSeconds().toString().padStart(2, '0')
 
   return (
-    <div className="border border-white/[0.07] border-l-2 border-l-[#f5c518]/70 bg-[#111111] p-5 flex flex-col gap-3">
+    <div className="gta-panel-l p-5 flex flex-col gap-3">
       <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-white/30">
         // SYSTEM CLOCK
       </p>

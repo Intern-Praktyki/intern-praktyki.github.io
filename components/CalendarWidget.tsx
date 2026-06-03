@@ -33,7 +33,7 @@ export default function CalendarWidget() {
   }
 
   return (
-    <div className="border border-white/[0.07] border-l-2 border-l-[#f5c518]/70 bg-[#111111] p-5">
+    <div className="gta-panel-l p-5">
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-white/30">
